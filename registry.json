@@ -13,6 +13,18 @@
       "downloadUrl": "https://raw.githubusercontent.com/zarzet/SpotiFLAC-Extension/main/extensions/demo-extension.spotiflac-ext",
       "homepage": "https://zarz.moe/docs",
       "minAppVersion": "2.0.0"
+    },
+    {
+      "id": "spotify-web",
+      "name": "Spotify Web",
+      "version": "1.0.0",
+      "author": "Zarz (Credit: afkarxyz)",
+      "description": "Integration with Spotify Web for enhanced playback and downloading capabilities.",
+      "category": "source",
+      "iconUrl": "https://raw.githubusercontent.com/zarzet/SpotiFLAC-Extension/main/icons/spotify-web.png",
+      "downloadUrl": "https://raw.githubusercontent.com/zarzet/SpotiFLAC-Extension/main/extensions/spotify-web.spotiflac-ext",
+      "homepage": "https://zarz.moe/docs",
+      "minAppVersion": "2.1.0"
     }
   ]
 }
