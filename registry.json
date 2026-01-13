@@ -9,7 +9,7 @@
       "version": "1.1.1",
       "author": "Zarz (Credit: afkarxyz)",
       "description": "Integration with Spotify Web for enhanced playback and downloading capabilities.",
-      "download_url": "https://github.com/zarzet/SpotiFLAC-Extension/releases/download/spotify-web-v1.1.1/spotify-web.spotiflac-ext",
+      "download_url": "https://raw.githubusercontent.com/zarzet/SpotiFLAC-Extension/main/extensions/spotify-web.spotiflac-ext",
       "icon_url": "https://raw.githubusercontent.com/zarzet/SpotiFLAC-Extension/main/icons/spotify-web.png",
       "category": "integration",
       "tags": ["spotify", "web", "streaming"],
