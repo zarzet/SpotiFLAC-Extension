@@ -1,23 +1,11 @@
 {
   "version": 1,
   "lastUpdated": "2026-01-13",
-  "extensions": [
-    {
-      "id": "demo-extension",
-      "name": "Demo Extension",
-      "version": "1.0.0",
-      "author": "Zarz",
-      "description": "Demo extension showing how to build a SpotiFLAC extension.",
-      "category": "utility",
-      "iconUrl": "https://raw.githubusercontent.com/zarzet/SpotiFLAC-Extension/main/icons/demo-extension.png",
-      "downloadUrl": "https://raw.githubusercontent.com/zarzet/SpotiFLAC-Extension/main/extensions/demo-extension.spotiflac-ext",
-      "homepage": "https://zarz.moe/docs",
-      "minAppVersion": "2.0.0"
-    },
+"extensions": [
     {
       "id": "spotify-web",
       "name": "Spotify Web",
-      "version": "1.0.0",
+"version": "1.1.0",
       "author": "Zarz (Credit: afkarxyz)",
       "description": "Integration with Spotify Web for enhanced playback and downloading capabilities.",
       "category": "source",
