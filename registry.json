@@ -6,7 +6,7 @@
       "id": "spotify-web",
       "name": "spotify-web",
       "display_name": "Spotify Web",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "author": "afkarxyz",
       "description": "Integration with Spotify Web for enhanced playback and downloading capabilities.",
       "download_url": "https://raw.githubusercontent.com/zarzet/SpotiFLAC-Extension/main/extensions/spotify-web.spotiflac-ext",
@@ -14,7 +14,7 @@
       "category": "integration",
       "tags": ["spotify", "web", "streaming"],
       "downloads": 0,
-      "updated_at": "2026-01-13T18:30:20Z",
+      "updated_at": "2026-01-21T01:46:24Z",
       "min_app_version": "3.1.0"
     },
     {
