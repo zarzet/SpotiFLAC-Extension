@@ -1,36 +1,36 @@
 {
   "version": 1,
-  "updated_at": "2026-01-13T18:30:20Z",
+  "updated_at": "2026-01-21T11:00:00Z",
   "extensions": [
     {
       "id": "spotify-web",
       "name": "spotify-web",
       "display_name": "Spotify Web",
-      "version": "1.7.0",
+      "version": "1.8.1",
       "author": "afkarxyz",
-      "description": "Integration with Spotify Web for enhanced playback and downloading capabilities.",
+      "description": "Fetch Spotify metadata via web API. Supports personalized playlists like Daily Mix, Discover Weekly, and more. Includes Home Feed explore and full metadata enrichment (ISRC, label, copyright, genre) via SongLink/Deezer.",
       "download_url": "https://raw.githubusercontent.com/zarzet/SpotiFLAC-Extension/main/extensions/spotify-web.spotiflac-ext",
       "icon_url": "https://raw.githubusercontent.com/zarzet/SpotiFLAC-Extension/main/icons/spotify-web.png",
       "category": "integration",
-      "tags": ["spotify", "web", "streaming"],
+      "tags": ["spotify", "web", "streaming", "homefeed"],
       "downloads": 0,
-      "updated_at": "2026-01-21T01:46:24Z",
-      "min_app_version": "3.1.0"
+      "updated_at": "2026-01-21T11:00:00Z",
+      "min_app_version": "3.2.0"
     },
     {
       "id": "ytmusic-spotiflac",
       "name": "ytmusic-spotiflac",
       "display_name": "YouTube Music",
-      "version": "1.5.0",
+      "version": "1.6.1",
       "author": "Amonoman and Zarz",
-      "description": "YouTube Music Search Provider for SpotiFLAC. Search tracks, albums, and playlists on YouTube Music. Uses Odesli for ISRC lookup.",
+      "description": "YouTube Music Search Provider for SpotiFLAC. Search tracks, albums, and playlists on YouTube Music. Uses Odesli for ISRC lookup. Includes Home Feed explore.",
       "download_url": "https://raw.githubusercontent.com/zarzet/SpotiFLAC-Extension/main/extensions/YTMusic-Spotiflac.spotiflac-ext",
       "icon_url": "https://raw.githubusercontent.com/zarzet/SpotiFLAC-Extension/main/icons/ytmusic-spotiflac.jpg",
       "category": "metadata",
-      "tags": ["youtube", "ytmusic", "metadata", "search"],
+      "tags": ["youtube", "ytmusic", "metadata", "search", "homefeed"],
       "downloads": 0,
-      "updated_at": "2026-01-14T22:43:37Z",
-      "min_app_version": "3.1.0"
+      "updated_at": "2026-01-21T11:00:00Z",
+      "min_app_version": "3.2.0"
     }
   ]
 }
