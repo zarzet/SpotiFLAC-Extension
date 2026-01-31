@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated_at": "2026-01-21T11:00:00Z",
+  "updated_at": "2026-01-31T09:00:51Z",
   "extensions": [
     {
       "id": "spotify-web",
       "name": "spotify-web",
       "display_name": "Spotify Web",
-      "version": "1.8.1",
+      "version": "1.9.0",
       "author": "afkarxyz",
       "description": "Fetch Spotify metadata via web API. Supports personalized playlists like Daily Mix, Discover Weekly, and more. Includes Home Feed explore and full metadata enrichment (ISRC, label, copyright, genre) via SongLink/Deezer.",
       "download_url": "https://raw.githubusercontent.com/zarzet/SpotiFLAC-Extension/main/extensions/spotify-web.spotiflac-ext",
@@ -14,14 +14,14 @@
       "category": "integration",
       "tags": ["spotify", "web", "streaming", "homefeed"],
       "downloads": 0,
-      "updated_at": "2026-01-21T11:00:00Z",
+      "updated_at": "2026-01-31T09:00:51Z",
       "min_app_version": "3.2.0"
     },
     {
       "id": "ytmusic-spotiflac",
       "name": "ytmusic-spotiflac",
       "display_name": "YouTube Music",
-      "version": "1.6.1",
+      "version": "1.7.0",
       "author": "Amonoman and Zarz",
       "description": "YouTube Music Search Provider for SpotiFLAC. Search tracks, albums, and playlists on YouTube Music. Uses Odesli for ISRC lookup. Includes Home Feed explore.",
       "download_url": "https://raw.githubusercontent.com/zarzet/SpotiFLAC-Extension/main/extensions/YTMusic-Spotiflac.spotiflac-ext",
@@ -29,7 +29,7 @@
       "category": "metadata",
       "tags": ["youtube", "ytmusic", "metadata", "search", "homefeed"],
       "downloads": 0,
-      "updated_at": "2026-01-21T11:00:00Z",
+      "updated_at": "2026-01-31T09:00:51Z",
       "min_app_version": "3.2.0"
     }
   ]
