@@ -1,20 +1,26 @@
 {
   "version": 1,
-  "updated_at": "2026-01-31T09:00:51Z",
+  "updated_at": "2026-02-25T17:33:24Z",
   "extensions": [
     {
       "id": "spotify-web",
       "name": "spotify-web",
       "display_name": "Spotify Web",
-      "version": "1.9.0",
+      "version": "2.0.0",
       "author": "afkarxyz",
-      "description": "Fetch Spotify metadata via web API. Supports personalized playlists like Daily Mix, Discover Weekly, and more. Includes Home Feed explore and full metadata enrichment (ISRC, label, copyright, genre) via SongLink/Deezer.",
+      "description": "Fetch Spotify metadata via web API. Now includes Synced Lyrics support compatible with all providers (Tidal, Qobuz, etc) via auto-match logic. Supports personalized playlists and Home Feed.",
       "download_url": "https://raw.githubusercontent.com/zarzet/SpotiFLAC-Extension/main/extensions/spotify-web.spotiflac-ext",
       "icon_url": "https://raw.githubusercontent.com/zarzet/SpotiFLAC-Extension/main/icons/spotify-web.png",
       "category": "integration",
-      "tags": ["spotify", "web", "streaming", "homefeed"],
+      "tags": [
+        "spotify",
+        "web",
+        "streaming",
+        "homefeed",
+        "lyrics"
+      ],
       "downloads": 0,
-      "updated_at": "2026-01-31T09:00:51Z",
+      "updated_at": "2026-02-25T17:33:24Z",
       "min_app_version": "3.2.0"
     },
     {
@@ -27,7 +33,13 @@
       "download_url": "https://raw.githubusercontent.com/zarzet/SpotiFLAC-Extension/main/extensions/YTMusic-Spotiflac.spotiflac-ext",
       "icon_url": "https://raw.githubusercontent.com/zarzet/SpotiFLAC-Extension/main/icons/ytmusic-spotiflac.jpg",
       "category": "metadata",
-      "tags": ["youtube", "ytmusic", "metadata", "search", "homefeed"],
+      "tags": [
+        "youtube",
+        "ytmusic",
+        "metadata",
+        "search",
+        "homefeed"
+      ],
       "downloads": 0,
       "updated_at": "2026-01-31T09:00:51Z",
       "min_app_version": "3.2.0"
