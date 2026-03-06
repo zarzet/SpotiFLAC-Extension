@@ -21,7 +21,7 @@
       "id": "ytmusic-spotiflac",
       "name": "ytmusic-spotiflac",
       "display_name": "YouTube Music",
-      "version": "1.7.0",
+      "version": "1.7.1",
       "author": "Amonoman and Zarz",
       "description": "YouTube Music Search Provider for SpotiFLAC. Search tracks, albums, and playlists on YouTube Music. Uses Odesli for ISRC lookup. Includes Home Feed explore.",
       "download_url": "https://raw.githubusercontent.com/zarzet/SpotiFLAC-Extension/main/extensions/YTMusic-Spotiflac.spotiflac-ext",
@@ -30,7 +30,7 @@
       "tags": ["youtube", "ytmusic", "metadata", "search", "homefeed"],
       "downloads": 0,
       "updated_at": "2026-01-31T09:00:51Z",
-      "min_app_version": "3.2.0"
+      "min_app_version": "3.7.1"
     }
   ]
 }
