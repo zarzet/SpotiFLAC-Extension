@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-01-31T09:00:51Z",
+  "updated_at": "2026-03-11T10:44:13Z",
   "extensions": [
     {
       "id": "spotify-web",
@@ -16,6 +16,20 @@
       "downloads": 0,
       "updated_at": "2026-01-31T09:00:51Z",
       "min_app_version": "3.2.0"
+    },
+    {
+      "id": "amzn",
+      "name": "amazon",
+      "display_name": "Amazon",
+      "version": "1.0.0",
+      "author": "afkarxyz",
+      "description": "Amazon download provider for SpotiFLAC. Downloads lossless audio from Amazon via third-party APIs.",
+      "download_url": "https://raw.githubusercontent.com/zarzet/SpotiFLAC-Extension/main/extensions/amzn.spotiflac-ext",
+      "category": "download",
+      "tags": ["amazon", "download", "lossless"],
+      "downloads": 0,
+      "updated_at": "2026-03-11T10:44:13Z",
+      "min_app_version": "3.7.2"
     },
     {
       "id": "ytmusic-spotiflac",
