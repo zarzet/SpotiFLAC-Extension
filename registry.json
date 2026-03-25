@@ -1,41 +1,40 @@
 {
   "version": 1,
-  "updated_at": "2026-03-16T00:00:00Z",
+  "updated_at": "2026-03-25T08:32:00Z",
   "extensions": [
     {
       "id": "spotify-web",
       "name": "spotify-web",
       "display_name": "Spotify Web",
-      "version": "1.9.0",
+      "version": "1.9.8",
       "author": "afkarxyz",
-      "description": "Fetch Spotify metadata via web API. Supports personalized playlists like Daily Mix, Discover Weekly, and more. Includes Home Feed explore and full metadata enrichment (ISRC, label, copyright, genre) via SongLink/Deezer.",
+      "description": "Fetch Spotify metadata via web API. Supports personalized playlists like Daily Mix, Discover Weekly, and more. Includes Home Feed explore and metadata enrichment via Spotify native ISRC plus Deezer.",
       "download_url": "https://raw.githubusercontent.com/zarzet/SpotiFLAC-Extension/main/extensions/spotify-web.spotiflac-ext",
-      "icon_url": "https://raw.githubusercontent.com/zarzet/SpotiFLAC-Extension/main/icons/spotify-web.png",
       "category": "integration",
       "tags": ["spotify", "web", "streaming", "homefeed"],
       "downloads": 0,
-      "updated_at": "2026-01-31T09:00:51Z",
-      "min_app_version": "3.2.0"
+      "updated_at": "2026-03-25T08:32:00Z",
+      "min_app_version": "3.9.0"
     },
     {
       "id": "amazon",
       "name": "amazon",
       "display_name": "Amazon Music",
-      "version": "2.0.3",
+      "version": "2.0.6",
       "author": "afkarxyz",
       "description": "Amazon Music metadata & download provider for SpotiFLAC. Browse tracks, albums, artists, playlists from Amazon Music links and search. Downloads lossless audio via third-party APIs.",
       "download_url": "https://raw.githubusercontent.com/zarzet/SpotiFLAC-Extension/main/extensions/amzn.spotiflac-ext",
       "category": "download",
       "tags": ["amazon", "download", "lossless", "metadata", "search"],
       "downloads": 0,
-      "updated_at": "2026-03-16T00:00:00Z",
-      "min_app_version": "3.8.0"
+      "updated_at": "2026-03-25T08:32:00Z",
+      "min_app_version": "3.9.0"
     },
     {
       "id": "ytmusic-spotiflac",
       "name": "ytmusic-spotiflac",
       "display_name": "YouTube Music",
-      "version": "1.7.5",
+      "version": "1.7.6",
       "author": "Amonoman and Zarz",
       "description": "YouTube Music Search Provider for SpotiFLAC. Search tracks, albums, and playlists on YouTube Music. Uses Odesli for ISRC lookup. Supports search filters.",
       "download_url": "https://raw.githubusercontent.com/zarzet/SpotiFLAC-Extension/main/extensions/ytmusic-spotiflac.spotiflac-ext",
@@ -43,8 +42,8 @@
       "category": "metadata",
       "tags": ["youtube", "ytmusic", "metadata", "search", "homefeed"],
       "downloads": 0,
-      "updated_at": "2026-03-10T06:00:00Z",
-      "min_app_version": "3.7.1"
+      "updated_at": "2026-03-25T08:32:00Z",
+      "min_app_version": "3.9.0"
     }
   ]
 }
