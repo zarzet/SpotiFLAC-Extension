@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-03-27T15:01:02Z",
+  "updated_at": "2026-03-27T18:11:14Z",
   "extensions": [
     {
       "id": "spotify-web",
@@ -20,14 +20,14 @@
       "id": "amazon",
       "name": "amazon",
       "display_name": "Amazon Music",
-      "version": "2.0.7",
+      "version": "2.0.8",
       "author": "afkarxyz",
       "description": "Amazon Music metadata & download provider for SpotiFLAC. Browse tracks, albums, artists, playlists from Amazon Music links and search. Downloads lossless audio via third-party APIs.",
       "download_url": "https://raw.githubusercontent.com/zarzet/SpotiFLAC-Extension/main/extensions/amzn.spotiflac-ext",
       "category": "download",
       "tags": ["amazon", "download", "lossless", "metadata", "search"],
       "downloads": 0,
-      "updated_at": "2026-03-26T18:00:00Z",
+      "updated_at": "2026-03-27T18:11:14Z",
       "min_app_version": "4.1.0"
     },
     {
