@@ -1,13 +1,12 @@
 {
   "version": 1,
-  "updated_at": "2026-04-06T07:19:43Z",
+  "updated_at": "2026-04-13T16:17:51Z",
   "extensions": [
     {
       "id": "spotify-web",
       "name": "spotify-web",
       "display_name": "Spotify Web",
-      "version": "1.9.10",
-      "author": "afkarxyz",
+      "version": "1.9.11",
       "description": "Fetch Spotify metadata via web API. Supports personalized playlists like Daily Mix, Discover Weekly, and more. Includes Home Feed explore and metadata enrichment via Spotify native ISRC plus Deezer.",
       "download_url": "https://raw.githubusercontent.com/zarzet/SpotiFLAC-Extension/main/extensions/spotify-web.spotiflac-ext",
       "category": "integration",
@@ -18,15 +17,14 @@
         "homefeed"
       ],
       "downloads": 0,
-      "updated_at": "2026-04-05T21:29:00Z",
-      "min_app_version": "4.1.0"
+      "updated_at": "2026-04-13T00:00:00Z",
+      "min_app_version": "4.3.0"
     },
     {
       "id": "amazon",
       "name": "amazon",
       "display_name": "Amazon Music",
-      "version": "2.0.9",
-      "author": "afkarxyz",
+      "version": "2.0.11",
       "description": "Amazon Music metadata & download provider for SpotiFLAC. Browse tracks, albums, artists, playlists from Amazon Music links and search. Downloads lossless audio via third-party APIs.",
       "download_url": "https://raw.githubusercontent.com/zarzet/SpotiFLAC-Extension/main/extensions/amzn.spotiflac-ext",
       "category": "download",
@@ -38,34 +36,33 @@
         "search"
       ],
       "downloads": 0,
-      "updated_at": "2026-04-04T08:41:28Z",
-      "min_app_version": "4.1.0"
+      "updated_at": "2026-04-13T00:00:00Z",
+      "min_app_version": "4.3.0"
     },
     {
       "id": "apple-music",
       "name": "apple-music",
       "display_name": "Apple Music",
-      "version": "1.1.1",
-      "author": "zarzet",
-      "description": "Apple Music metadata and lyrics provider. Fetches ISRC, label, copyright, genre, composer. Lyrics require a Media User Token (Apple Music subscription). Supports word-by-word sync, translation, and pronunciation.",
+      "version": "1.2.3",
+      "description": "Apple Music metadata, lyrics, and download provider for SpotiFLAC Mobile. Fetches ISRC, label, copyright, genre, composer. Lyrics require a Media User Token (Apple Music subscription). Downloads use the Apple queue API first with app2 direct-stream fallback.",
       "download_url": "https://raw.githubusercontent.com/zarzet/SpotiFLAC-Extension/main/extensions/apple-musc.spotiflac-ext",
       "category": "integration",
       "tags": [
         "apple",
         "metadata",
         "lyrics",
-        "search"
+        "search",
+        "download"
       ],
       "downloads": 0,
-      "updated_at": "2026-04-05T21:29:00Z",
-      "min_app_version": "4.2.0"
+      "updated_at": "2026-04-13T00:00:00Z",
+      "min_app_version": "4.3.0"
     },
     {
       "id": "soundcloud",
       "name": "soundcloud",
       "display_name": "SoundCloud",
-      "version": "1.0.0",
-      "author": "zarzet",
+      "version": "1.0.2",
       "description": "SoundCloud metadata and download provider. Search tracks, albums, playlists, artists. Downloads via direct SoundCloud streams with Cobalt API fallback.",
       "download_url": "https://raw.githubusercontent.com/zarzet/SpotiFLAC-Extension/main/extensions/soundcloud.spotiflac-ext",
       "category": "download",
@@ -76,15 +73,14 @@
         "search"
       ],
       "downloads": 0,
-      "updated_at": "2026-04-04T08:41:28Z",
-      "min_app_version": "4.2.0"
+      "updated_at": "2026-04-13T00:00:00Z",
+      "min_app_version": "4.3.0"
     },
     {
       "id": "ytmusic-spotiflac",
       "name": "ytmusic-spotiflac",
       "display_name": "YouTube Music",
-      "version": "2.0.1",
-      "author": "Amonoman and Zarz",
+      "version": "2.0.4",
       "description": "YouTube Music metadata & download provider for SpotiFLAC. Search tracks, albums, playlists on YouTube Music.",
       "download_url": "https://raw.githubusercontent.com/zarzet/SpotiFLAC-Extension/main/extensions/ytmusic-spotiflac.spotiflac-ext",
       "icon_url": "https://raw.githubusercontent.com/zarzet/SpotiFLAC-Extension/main/icons/ytmusic-spotiflac.jpg",
@@ -98,26 +94,45 @@
         "download"
       ],
       "downloads": 0,
-      "updated_at": "2026-03-27T15:01:02Z",
-      "min_app_version": "4.1.0"
+      "updated_at": "2026-04-13T16:17:51Z",
+      "min_app_version": "4.3.0"
     },
     {
       "id": "deezer",
       "name": "deezer",
       "display_name": "Deezer",
-      "version": "1.0.1",
-      "author": "zarzet",
-      "description": "Deezer download provider for SpotiFLAC.",
+      "version": "1.1.2",
+      "description": "Deezer metadata and download provider for SpotiFLAC Mobile.",
       "download_url": "https://raw.githubusercontent.com/zarzet/SpotiFLAC-Extension/main/extensions/deezer.spotiflac-ext",
       "category": "download",
       "tags": [
         "deezer",
         "download",
-        "lossless"
+        "lossless",
+        "metadata",
+        "search"
       ],
       "downloads": 0,
-      "updated_at": "2026-04-06T07:19:43Z",
-      "min_app_version": "4.2.2"
+      "updated_at": "2026-04-13T00:00:00Z",
+      "min_app_version": "4.3.0"
+    },
+    {
+      "id": "pandora",
+      "name": "pandora",
+      "display_name": "Pandora",
+      "version": "1.0.2",
+      "description": "Pandora metadata and download provider for SpotiFLAC Mobile. Handles Pandora track and album URLs.",
+      "download_url": "https://raw.githubusercontent.com/zarzet/SpotiFLAC-Extension/main/extensions/pandora.spotiflac-ext",
+      "category": "download",
+      "tags": [
+        "pandora",
+        "download",
+        "metadata",
+        "search"
+      ],
+      "downloads": 0,
+      "updated_at": "2026-04-13T00:00:00Z",
+      "min_app_version": "4.3.0"
     }
   ]
 }
