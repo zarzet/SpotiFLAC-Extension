@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-04-14T11:07:25Z",
+  "updated_at": "2026-04-14T12:53:11Z",
   "extensions": [
     {
       "id": "spotify-web",
@@ -120,7 +120,7 @@
       "id": "pandora",
       "name": "pandora",
       "display_name": "Pandora",
-      "version": "1.0.7",
+      "version": "1.0.8",
       "description": "Pandora metadata and download provider for SpotiFLAC Mobile. Handles Pandora track and album URLs.",
       "download_url": "https://raw.githubusercontent.com/zarzet/SpotiFLAC-Extension/main/extensions/pandora.spotiflac-ext",
       "category": "download",
@@ -131,8 +131,8 @@
         "search"
       ],
       "downloads": 0,
-      "updated_at": "2026-04-14T11:07:25Z",
-      "min_app_version": "4.3.0"
+      "updated_at": "2026-04-14T12:53:11Z",
+      "min_app_version": "4.2.3"
     }
   ]
 }
