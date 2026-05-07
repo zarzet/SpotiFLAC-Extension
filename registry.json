@@ -80,7 +80,7 @@
       "id": "ytmusic-spotiflac",
       "name": "ytmusic-spotiflac",
       "display_name": "YouTube Music",
-      "version": "2.3.6",
+      "version": "2.3.7",
       "description": "YouTube Music metadata & download provider for SpotiFLAC Mobile. Search tracks, albums, playlists on YouTube Music.",
       "download_url": "https://raw.githubusercontent.com/zarzet/SpotiFLAC-Extension/main/extensions/ytmusic-spotiflac.spotiflac-ext",
       "icon_url": "https://raw.githubusercontent.com/zarzet/SpotiFLAC-Extension/main/icons/ytmusic-spotiflac.jpg",
@@ -94,8 +94,8 @@
         "download"
       ],
       "downloads": 0,
-      "updated_at": "2026-05-06T00:00:00Z",
-      "min_app_version": "4.3.0"
+      "updated_at": "2026-05-08T00:00:00Z",
+      "min_app_version": "4.5.1"
     },
     {
       "id": "deezer",
